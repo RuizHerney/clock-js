@@ -58,3 +58,42 @@
     background-color: var(--orange-color);
     box-shadow: 2px 2px var(--lemon-menringue-color);
 }
+
+/* ****** Clock Block  ****** */
+.clock {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.clock__title {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color: var(--honeydew-color);
+}
+  
+.clock__hour {
+    color: var(--prussian-blue-color);
+    font-size: 4.5rem;
+}
+  
+.clock__date {
+    color: var(--maximun-red);
+}
+  
+/* ****** Clock Modifier  ****** */
+.clock__title--dark {
+    color: var(--prussian-blue-color);
+}
+
+.clock__date--dark {
+    color: var(--prussian-blue-color);
+}
+
+.clock__hour--dark {
+    color: var(--honeydew-color);
+}
