@@ -4,3 +4,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* ****** Variables CSS  ****** */
+:root {
+    --honeydew-color: #f1faee;
+    --lemon-menringue-color: #e6e3d4;
+    --prussian-blue-color: #003049;
+    --maximun-yellow-red-color: #fcbf49;
+    --orange-color: #f77f00;
+    --maximun-red: #d62828;
+  
+    --font-family: "Fjalla One", sans-serif;
+  
+    --max-content: 1200px;
+}
