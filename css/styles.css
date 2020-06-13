@@ -18,3 +18,17 @@
   
     --max-content: 1200px;
 }
+
+/* ****** Body  ****** */
+.body {
+    background-color: var(--lemon-menringue-color);
+    max-height: 100vh;
+    font-family: var(--font-family);
+    transition: all 2s ease;  
+}
+
+.body--dark {
+    background-color: var(--prussian-blue-color);
+    color: var(--honeydew-color);
+    transition: all 2s ease;
+}
