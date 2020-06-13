@@ -32,3 +32,29 @@
     color: var(--honeydew-color);
     transition: all 2s ease;
 }
+
+/* ****** Container  ****** */
+.container {
+    width: inherit;
+    height: 95vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.container__clock {
+    width: 350px;
+    height: 200px;
+
+    background-color: var(--maximun-yellow-red-color);
+    border-radius: 2.5%;
+    box-shadow: 2px 2px var(--prussian-blue-color);
+}
+  
+/* ****** Container Modifier  ****** */
+.container__clock--dark {
+    background-color: var(--orange-color);
+    box-shadow: 2px 2px var(--lemon-menringue-color);
+}
